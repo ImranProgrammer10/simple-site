@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    float: left;
+}
+span{
+    color: gold;
+}
+ 
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    
+    
+     
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 80%;
+    
+}
+.link-button{
+        text-decoration: none;
+        background-image: linear-gradient(orange,tomato);
+        padding: 10px 40px;
+        color: white;
+        border-radius: 10px;
+        font-weight: 700px;
+
+    }
+     
+    .dream-area{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .experience-item{
+        box-shadow: 10px 10px 40px gray;
+        
+        margin-left: 7%;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+    .experience-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+    }
+     #experience-web-dev{
+         border-left:  7px solid;
+         border-image: linear-gradient(blue,cyan);
+         border-image-slice: 1;
+     }
+     #full-stack-web{
+        border-left:  7px solid;
+        border-image: linear-gradient(purple,tomato);
+        border-image-slice: 1;
+
+     }
+     .box-head{
+         color: goldenrod;     }
+    footer p{
+        text-align: center;
+    }
+
+ 
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 30px;
+  }
+  
+  
+  .row {margin: 0 -5px;}
+  
+   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    /* text-align: center; */
+    background-color: #f1f1f1;
+  }
+
+  #experience-head  {
+      margin-left: 5%;
+  }
